@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const recipes = require('./recipeData');
+const recipes = require('./data');
 
 app.set('port', 3001);
 app.locals.title = 'Picky Eater';
@@ -27,11 +27,11 @@ app.get('/api/v1/foods/:food_id', (request, response) => {
   const foodId = parseInt(request.params.food_id);
   
 
-  const foodItem = app.locals.foods.find(food => {
+  const recipe = app.locals.foods.find(food => {
     return foodId === food.id;
   });
 
-  response.json({ foodItem });
+  response.json({ recipe });
 });
 
 app.listen(app.get('port'), () => {
