@@ -1,4 +1,4 @@
-#Picky Eater API
+# Picky Eater API
 - Deployed API on Heroku [here](https://picky-eaters.herokuapp.com/) <br>
 - Frontend Repo [here]() <br>
 - Project Spec [here](https://frontend.turing.edu/projects/module-3/showcase.html)
