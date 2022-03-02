@@ -25,13 +25,13 @@ app.get('/api/v1/foods', (request, response) => {
 
 app.get('/api/v1/foods/:food_id', (request, response) => {
   const foodId = parseInt(request.params.food_id);
-  
-
   const recipe = app.locals.foods.find(food => {
     return foodId === food.id;
   });
-
-  response.json({ recipe });
+  if(!recipe) {
+    return response.sendStatus(404);
+  }
+  response.status(200).json({ recipe });
 });
 
 app.listen(app.get('port'), () => {
