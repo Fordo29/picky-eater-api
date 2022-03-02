@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const recipes = require('./data');
 
-app.set('port', 3001);
+app.set('port', process.env.PORT || 3001);
 app.locals.title = 'Picky Eater';
 app.use(express.json());
 
