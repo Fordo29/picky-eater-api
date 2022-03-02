@@ -1,0 +1,23 @@
+{
+  "name": "picky-eater-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fordo29/picky-eater-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fordo29/picky-eater-api/issues"
+  },
+  "homepage": "https://github.com/Fordo29/picky-eater-api#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
