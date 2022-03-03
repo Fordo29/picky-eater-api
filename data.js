@@ -1,6 +1,7 @@
 const recipeData = [
   {
     "id": 1,
+    "isFavorited": "false",
     "image": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Pizza-Noodle-Bake_EXPS_GHBZ18_40275_C08_30_3b-8.jpg?fit=696,696",
     "url": "https://www.tasteofhome.com/recipes/pizza-noodle-bake/",
     "recipeTitle": "Pizza Noodle Bake",
@@ -12,6 +13,7 @@ const recipeData = [
   },
   {
     "id": 2,
+    "isFavorited": "false",
     "image": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Enchilada-Casser-Ole-_EXPS_WRSM17_42083_C03_22_2b-5.jpg?fit=696,696",
     "url": "https://www.tasteofhome.com/recipes/enchilada-casser-ole/",
     "recipeTitle": "Enchilada Casser-Ole!",
@@ -23,6 +25,7 @@ const recipeData = [
   },
   {
     "id": 3,
+    "isFavorited": "false",
     "image": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Cheeseburger-Cups_EXPS_GBBZ19_45599_E11_13_11b-9.jpg?fit=696,696",
     "url": "https://www.tasteofhome.com/recipes/cheeseburger-cups/",
     "recipeTitle": "Cheeseburger Cups",
@@ -34,6 +37,7 @@ const recipeData = [
   },
   {
     "id": 4,
+    "isFavorited": "false",
     "image": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Makeover-Li-l-Cheddar-Meat-Loaves_EXPS_DSBZ17_40731_C01_19_3b-9.jpg?fit=700,700",
     "url": "https://www.tasteofhome.com/recipes/makeover-li-l-cheddar-meat-loaves/",
     "recipeTitle": "Makeover Li’l Cheddar Meat Loaves",
@@ -45,6 +49,7 @@ const recipeData = [
   },
   {
     "id": 5,
+    "isFavorited": "false",
     "image": "https://www.tasteofhome.com/wp-content/uploads/2018/01/exps17270_CW153049D04_01_3b-5.jpg?fit=696,696",
     "url": "https://www.tasteofhome.com/recipes/slow-cooker-mac-and-cheese/",
     "recipeTitle": "Slow-Cooker Mac and Cheese",
@@ -56,6 +61,7 @@ const recipeData = [
   },
   {
     "id": 6,
+    "isFavorited": "false",
     "image": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Chicken-Nuggets_EXPS_SDON18_1500_E06_13_1b-13.jpg?fit=700,700",
     "url": "https://www.tasteofhome.com/recipes/chicken-nuggets/",
     "recipeTitle": "Chicken Nuggets",
@@ -67,6 +73,7 @@ const recipeData = [
   },
   {
     "id": 7,
+    "isFavorited": "false",
     "image": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Walking-Tacos_exps101359_TH143192C02_11_3bC_RMS-4.jpg?fit=696,696",
     "url": "https://www.tasteofhome.com/recipes/walking-tacos/",
     "recipeTitle": "Walking Tacos",
@@ -78,6 +85,7 @@ const recipeData = [
   },
   {
     "id": 8,
+    "isFavorited": "false",
     "image": "https://www.tasteofhome.com/wp-content/uploads/2018/01/exps43840_SD153319C10_14_5b_WEB-4.jpg?fit=696,696",
     "url": "https://www.tasteofhome.com/recipes/homemade-fish-sticks/",
     "recipeTitle": "Homemade Fish Sticks",
@@ -89,6 +97,7 @@ const recipeData = [
   },
   {
     "id": 9,
+    "isFavorited": "false",
     "image": "https://www.tasteofhome.com/wp-content/uploads/2018/01/exps18427______FM143298B03_11_5b-6.jpg?fit=696,696",
     "url": "https://www.tasteofhome.com/recipes/mozzarella-baked-spaghetti/",
     "recipeTitle": "Mozzarella Baked Spaghetti",
@@ -100,6 +109,7 @@ const recipeData = [
   },
   {
     "id": 10,
+    "isFavorited": "false",
     "image": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Pizza-Meat-Loaf-Cups_EXPS_SDFM18_19241_D10_11_4b-1.jpg?fit=696,696",
     "url": "https://www.tasteofhome.com/recipes/pizza-meat-loaf-cups/",
     "recipeTitle": "Pizza Meat Loaf Cups",
@@ -111,6 +121,7 @@ const recipeData = [
   },
   {
     "id": 11,
+    "isFavorited": "false",
     "image": "https://www.tasteofhome.com/wp-content/uploads/2018/01/exps11451_TH163622D04_12_7b.jpg?fit=700,700",
     "url": "https://www.tasteofhome.com/recipes/confetti-spaghetti/",
     "recipeTitle": "Confetti Spaghetti",
@@ -122,6 +133,7 @@ const recipeData = [
   },
   {
     "id": 12,
+    "isFavorited": "false",
     "image": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Easy-Stuffed-Shells_exps42632_TH143193B04_23_6b_RMS-6.jpg?fit=700,700",
     "url": "https://www.tasteofhome.com/recipes/easy-stuffed-shells/",
     "recipeTitle": "Easy Stuffed Shells",
@@ -133,6 +145,7 @@ const recipeData = [
   },
   {
     "id": 13,
+    "isFavorited": "false",
     "image": "https://www.tasteofhome.com/wp-content/uploads/2018/01/exps38634_SD153323D06_05_2b-15.jpg?fit=700,700",
     "url": "https://www.tasteofhome.com/recipes/mexi-mac-skillet/",
     "recipeTitle": "Mexi-Mac Skillet",
@@ -144,6 +157,7 @@ const recipeData = [
   },
   {
     "id": 14,
+    "isFavorited": "false",
     "image": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Tater-Tot-chos_exps175046_TH14191C11_21_2b_RMS-5.jpg?fit=696,696",
     "url": "https://www.tasteofhome.com/recipes/tater-tot-chos/",
     "recipeTitle": "Tater Tot-chos",
@@ -155,6 +169,7 @@ const recipeData = [
   },
   {
     "id": 15, 
+    "isFavorited": "false",
     "image": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Slow-Cooker-Pizza-Casserole_exps33532_SSC2919296A03_21_2bC_RMS.jpg?fit=700,700",
     "url": "https://www.tasteofhome.com/recipes/slow-cooker-pizza-casserole/",
     "recipeTitle": "Slow-Cooker Pizza Casserole",
@@ -166,6 +181,7 @@ const recipeData = [
   },
   {
     "id": 16, 
+    "isFavorited": "false",
     "image": "https://www.tasteofhome.com/wp-content/uploads/2018/01/exps15037_SDAM17_15037_B12_09_3b_RMS.jpg?fit=700,700",
     "url": "https://www.tasteofhome.com/recipes/spanish-noodles-ground-beef/",
     "recipeTitle": "Spanish Noodles & Ground Beef",
@@ -177,6 +193,7 @@ const recipeData = [
   },
   {
     "id": 17,
+    "isFavorited": "false",
     "image": "https://www.tasteofhome.com/wp-content/uploads/2018/01/exps17782_FF163882B01_14_2b.jpg?fit=700,700",
     "url": "https://www.tasteofhome.com/recipes/sloppy-joe-pasta/",
     "recipeTitle": "Sloppy Joe Pasta",
@@ -188,6 +205,7 @@ const recipeData = [
   },
   {
     "id": 18, 
+    "isFavorited": "false",
     "image": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Cheeseburger-Pockets_exps13674_FF2282132D03_02_5bC_RMS-2.jpg?fit=696,696",
     "url": "https://www.tasteofhome.com/recipes/cheeseburger-pockets/",
     "recipeTitle": "Cheeseburger Pockets",
@@ -198,7 +216,8 @@ const recipeData = [
     "nutritionDetails": "1 serving: 299 calories, 10g fat (5g saturated fat), 36mg cholesterol, 1101mg sodium, 34g carbohydrate (1g sugars, 0 fiber), 17g protein."
   },
   {
-      "id": 19, 
+    "id": 19, 
+    "isFavorited": "false",
     "image": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Taco-Filled-Pasta-Shells_EXPS_GHBZ18_13814_E08_15_4b-3.jpg?fit=700,700",
     "url": "https://www.tasteofhome.com/recipes/taco-filled-pasta-shells/",
     "recipeTitle": "Taco-Filled Pasta Shells",
@@ -210,6 +229,7 @@ const recipeData = [
   },
   {
     "id": 20,
+    "isFavorited": "false",
     "image": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Over-the-Top-Mac-n-Cheese_exps36600_CF2345613A06_21_2bC_RMS-2.jpg?fit=696,696",
     "url": "https://www.tasteofhome.com/recipes/over-the-top-mac-n-cheese/",
     "recipeTitle": "Over-the-Top Mac ‘n’ Cheese",
@@ -221,6 +241,7 @@ const recipeData = [
   },
   {
     "id": 21,
+    "isFavorited": "false",
     "image": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Loaded-Spaghetti-Bake_EXPS_13X9BZ19_42614_E10_03_8b-5.jpg?fit=696,696",
     "url": "https://www.tasteofhome.com/recipes/loaded-spaghetti-bake/",
     "recipeTitle": "Loaded Spaghetti Bake",
@@ -232,6 +253,7 @@ const recipeData = [
   },
   {
     "id": 22,
+    "isFavorited": "false",
     "image": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Skillet-Beef-and-Macaroni_EXPS_SDAS18_4467_D03_29__9b.jpg?fit=700,700",
     "url": "https://www.tasteofhome.com/recipes/skillet-beef-and-macaroni/",
     "recipeTitle": "Skillet Beef and Macaroni",
@@ -243,6 +265,7 @@ const recipeData = [
   },
   {
     "id": 23,
+    "isFavorited": "false",
     "image": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Favorite-Baked-Spaghetti_EXPS26331_CS2919398C04_30_8b_RMS-33.jpg?fit=700,700",
     "url": "https://www.tasteofhome.com/recipes/favorite-baked-spaghetti/",
     "recipeTitle": "Favorite Baked Spaghetti",
@@ -254,6 +277,7 @@ const recipeData = [
   },
   {
     "id": 24,
+    "isFavorited": "false",
     "image": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Skillet-Mac-Cheese_EXPS_TOH5ICFRTL21_27614_E07_15_3b.jpg?fit=700,700",
     "url": "https://www.tasteofhome.com/recipes/skillet-mac-cheese/",
     "recipeTitle": "Skillet Mac & Cheese",
@@ -265,6 +289,7 @@ const recipeData = [
   },
   {
     "id": 25,
+    "isFavorited": "false",
     "image": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Oven-Fried-Fish-Nuggets_exps35083_THD143241C01_22_5bC_RMS-2.jpg?fit=696,696",
     "url": "https://www.tasteofhome.com/recipes/oven-fried-fish-nuggets/",
     "recipeTitle": "Oven-Fried Fish Nuggets",
@@ -276,6 +301,7 @@ const recipeData = [
   },
   {
     "id": 26,
+    "isFavorited": "false",
     "image": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Stovetop-Beef-and-Shells_EXPS_SDON17_27668_D07_06_3b-1.jpg?fit=700,700",
     "url": "https://www.tasteofhome.com/recipes/stovetop-beef-and-shells/",
     "recipeTitle": "Stovetop Beef and Shells",
@@ -287,6 +313,7 @@ const recipeData = [
   },
   {
     "id": 27,
+    "isFavorited": "false",
     "image": "https://www.tasteofhome.com/wp-content/uploads/2018/01/exps21669_FF163882B01_13_4b-1.jpg?fit=700,700",
     "url": "https://www.tasteofhome.com/recipes/hot-dog-pie/",
     "recipeTitle": "Hot Dog Pie",
@@ -298,6 +325,7 @@ const recipeData = [
   },
   {
     "id": 28,
+    "isFavorited": "false",
     "image": "https://www.tasteofhome.com/wp-content/uploads/2018/01/exps116189___SD153320C12_05_6b-2.jpg?fit=696,696",
     "url": "https://www.tasteofhome.com/recipes/frito-pie/",
     "recipeTitle": "Frito Pie",
@@ -309,6 +337,7 @@ const recipeData = [
   },
   {
     "id": 29,
+    "isFavorited": "false",
     "image": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Bacon-Cheeseburger-Tater-Tot-Bake_EXPS_THFM17_195129_B09_28_2b-11.jpg?fit=696,696",
     "url": "https://www.tasteofhome.com/recipes/bacon-cheeseburger-tater-tot-bake/",
     "recipeTitle": "Bacon Cheeseburger Tater Tot Bake",
@@ -320,6 +349,7 @@ const recipeData = [
   },
   {
     "id": 30,
+    "isFavorited": "false",
     "image": "https://www.tasteofhome.com/wp-content/uploads/2018/01/exps25759__SD143206C04_08_4b-6.jpg?fit=700,700",
     "url": "https://www.tasteofhome.com/recipes/garlic-toast-pizzas/",
     "recipeTitle": "Garlic Toast Pizzas",
@@ -331,6 +361,7 @@ const recipeData = [
   },
   {
     "id": 31,
+    "isFavorited": "false",
     "image": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Mini-Shepherd-s-Pies_EXPS_SDAS17_38061_C04_07_6b-8.jpg?fit=700,700",
     "url": "https://www.tasteofhome.com/recipes/mini-shepherd-s-pies/",
     "recipeTitle": "Mini Shepherd’s Pies",
@@ -342,6 +373,7 @@ const recipeData = [
   },
   {
     "id": 32,
+    "isFavorited": "false",
     "image": "https://www.tasteofhome.com/wp-content/uploads/2018/01/exps17941_CAS143580B09_16_3b.jpg?fit=700,700",
     "url": "https://www.tasteofhome.com/recipes/ham-noodle-dinner/",
     "recipeTitle": "Ham Noodle Dinner",
@@ -353,6 +385,7 @@ const recipeData = [
   },
   {
     "id": 33, 
+    "isFavorited": "false",
     "image": "https://www.tasteofhome.com/wp-content/uploads/2018/01/One-Skillet-Pasta_EXPS_CIMZ19_45549_C01_09_8b-13.jpg?fit=700,700",
     "url": "https://www.tasteofhome.com/recipes/one-skillet-pasta/",
     "recipeTitle": "One-Skillet Pasta",
@@ -364,6 +397,7 @@ const recipeData = [
   },
   {
     "id": 34,
+    "isFavorited": "false",
     "image": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Two-Tater-Shepherd-s-Pie_exps21052_THCAS2302838B05_19_4bC_RMS-1.jpg?fit=696,696",
     "url": "https://www.tasteofhome.com/recipes/two-tater-shepherd-s-pie/",
     "recipeTitle": "Two-Tater Shepherd’s Pie",
@@ -375,6 +409,7 @@ const recipeData = [
   },
   {
     "id": 35,
+    "isFavorited": "false",
     "image": "https://www.tasteofhome.com/wp-content/uploads/2018/01/exps179236_TH143194A06_06_2b-7.jpg?fit=700,700",
     "url": "https://www.tasteofhome.com/recipes/muffin-tin-pizzas/",
     "recipeTitle": "Muffin-Tin Pizzas",
@@ -386,6 +421,7 @@ const recipeData = [
   },
   {
     "id": 36,
+    "isFavorited": "false",
     "image": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Santa-Fe-Skillet_EXPS_OPBZ18_23272_C06_29_4b-11.jpg?fit=700,700",
     "url": "https://www.tasteofhome.com/recipes/santa-fe-skillet/",
     "recipeTitle": "Santa Fe Skillet",
@@ -397,6 +433,7 @@ const recipeData = [
   },
   {
     "id": 37, 
+    "isFavorited": "false",
     "image": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Ham-and-Scalloped-Potatoes_EXPS_SDDJ19_13255_C07_13_1b-2.jpg?fit=700,700",
     "url": "https://www.tasteofhome.com/recipes/ham-and-scalloped-potatoes/",
     "recipeTitle": "Ham and Scalloped Potatoes",
@@ -408,6 +445,7 @@ const recipeData = [
   },
   {
     "id": 38, 
+    "isFavorited": "false",
     "image": "https://www.tasteofhome.com/wp-content/uploads/2018/01/exps181639_TH153340C09_26_8b-4.jpg?fit=700,700",
     "url": "https://www.tasteofhome.com/recipes/double-crust-pizza-casserole/",
     "recipeTitle": "Double-Crust Pizza Casserole",
@@ -419,6 +457,7 @@ const recipeData = [
   },
   {
     "id": 39,
+    "isFavorited": "false",
     "image": "https://www.tasteofhome.com/wp-content/uploads/2018/01/exps113889_SD163615C04_07_7b-5.jpg?fit=696,696",
     "url": "https://www.tasteofhome.com/recipes/sloppy-joe-biscuit-cups/",
     "recipeTitle": "Sloppy Joe Biscuit Cups",
@@ -430,6 +469,7 @@ const recipeData = [
   },
   {
     "id": 40, 
+    "isFavorited": "false",
     "image": "https://www.tasteofhome.com/wp-content/uploads/2018/01/exps16436_FF163882C01_13_3b-2.jpg?fit=696,696",
     "url": "https://www.tasteofhome.com/recipes/hot-dog-roll-ups/",
     "recipeTitle": "Hot Dog Roll-Ups",
@@ -441,6 +481,7 @@ const recipeData = [
   },
   {
     "id": 41,
+    "isFavorited": "false",
     "image": "https://www.tasteofhome.com/wp-content/uploads/2018/01/exps47591_TH153340D09_24_1b-1.jpg?fit=696,696",
     "url": "https://www.tasteofhome.com/recipes/hearty-beef-ravioli/",
     "recipeTitle": "Hearty Beef Ravioli",
@@ -452,6 +493,7 @@ const recipeData = [
   },
   {
     "id": 42, 
+    "isFavorited": "false",
     "image": "https://www.tasteofhome.com/wp-content/uploads/2018/01/exps12399_THCA173831D03_29_3b.jpg?fit=700,700",
     "url": "https://www.tasteofhome.com/recipes/ham-and-cheese-puffs/",
     "recipeTitle": "Ham and Cheese Puffs",
@@ -463,6 +505,7 @@ const recipeData = [
   },
   {
     "id": 43,
+    "isFavorited": "false",
     "image": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Muffin-Cup-Cheddar-Beef-Pies_exps166713_SD143203B10_16_10bC_RMS.jpg?fit=700,700",
     "url": "https://www.tasteofhome.com/recipes/muffin-cup-cheddar-beef-pies/",
     "recipeTitle": "Muffin-Cup Cheddar Beef Pies",
@@ -474,6 +517,7 @@ const recipeData = [
   },
   {
     "id": 44, 
+    "isFavorited": "false",
     "image": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Chili-ghetti_EXPS_SDFM19_16418_C10_18_6b-11.jpg?fit=700,700",
     "url": "https://www.tasteofhome.com/recipes/chili-ghetti/",
     "recipeTitle": "Chili-ghetti",
@@ -485,6 +529,7 @@ const recipeData = [
   },
   {
     "id": 45, 
+    "isFavorited": "false",
     "image": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Waffle-Iron-Pizzas_EXPS_TOHFM21_187180_E09_22_13b.jpg?fit=700,700",
     "url": "https://www.tasteofhome.com/recipes/waffle-iron-pizzas/",
     "recipeTitle": "Waffle-Iron Pizzas",
@@ -496,6 +541,7 @@ const recipeData = [
   },
   {
     "id": 46,
+    "isFavorited": "false",
     "image": "https://www.tasteofhome.com/wp-content/uploads/2018/01/exps182782_SD153319D10_08_3b-1.jpg?fit=696,696",
     "url": "https://www.tasteofhome.com/recipes/mama-mia-meatball-taquitos/",
     "recipeTitle": "Mama Mia Meatball Taquitos",
@@ -507,6 +553,7 @@ const recipeData = [
   },
   {
     "id": 47, 
+    "isFavorited": "false",
     "image": "https://www.tasteofhome.com/wp-content/uploads/2018/05/Fair-Favorite-Corn-Dogs_EXPS_SDJJ18_132226_C02_15_1b-1.jpg?fit=700,700",
     "url": "https://www.tasteofhome.com/recipes/fair-favorite-corn-dogs/",
     "recipeTitle": "Fair-Favorite Corn Dogs",
@@ -518,6 +565,7 @@ const recipeData = [
   },
   {
     "id": 48, 
+    "isFavorited": "false",
     "image": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Sweet-Potato-Crusted-Chicken-Nuggets_EXPS_SDFM18_206924_C10_05_4b-3.jpg?fit=700,700",
     "url": "https://www.tasteofhome.com/recipes/sweet-potato-crusted-chicken-nuggets/",
     "recipeTitle": "Sweet Potato-Crusted Chicken Nuggets",
@@ -529,6 +577,7 @@ const recipeData = [
   },
   {
     "id": 49,
+    "isFavorited": "false",
     "image": "https://www.tasteofhome.com/wp-content/uploads/2018/01/exps19876_FF163882B01_14_5b.jpg?fit=700,700",
     "url": "https://www.tasteofhome.com/recipes/triple-cheese-twists/",
     "recipeTitle": "Triple Cheese Twists",
@@ -540,6 +589,7 @@ const recipeData = [
   },
   {
     "id": 50,
+    "isFavorited": "false",
     "image": "https://www.tasteofhome.com/wp-content/uploads/2018/06/Chicken-Taco-Pockets_EXPS_SDAS18_205120_C03_28__4b-3.jpg?fit=696,696",
     "url": "https://www.tasteofhome.com/recipes/chicken-taco-pockets/",
     "recipeTitle": "Chicken Taco Pockets",
